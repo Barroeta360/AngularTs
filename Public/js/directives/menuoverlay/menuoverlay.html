@@ -1,0 +1,16 @@
+<div class="row">
+    <div class="col-12 col-sm-6 col-md-{{menu.width}} p-1" ng-repeat="menu in main.app.overlayMenuList">
+        <a>
+            <div class="menu-content" style="background-image: url({{menu.image}})">
+                <div class="menu-overlay">
+                    <center>
+                        <h3 class="text-center title-menu">{{menu.title}}</h3>
+                        <a class="btn btn-pink waves-effect waves-light btn-pink-way" href="{{menu.url}}">
+                        <i class="fa fa-clone left"></i> Ir
+                    </a>
+                    </center>
+                </div>
+            </div>
+        </a>
+    </div>
+</div>

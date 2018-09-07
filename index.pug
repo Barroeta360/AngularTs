@@ -1,0 +1,30 @@
+doctype 
+html(ng-app="project")
+    head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Promociones
+        //inject:css
+        //endinject
+        //link(rel="stylesheet" href="public/web-fonts/css/fontawesome-all.css")
+        link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous")
+        style.
+            html body#body{
+                padding-right: 0px !important;
+                padding-left: 0px !important;
+            }
+
+    body(ng-controller="main as main", id="body")
+        //project angular here
+        ui-view
+
+        //inject:js
+        //endinject
+        script(src="https://developers.google.com/maps/documentation/javascript/examples/markerclusterer/markerclusterer.js")
+        script(src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDap_BK8fMsLxIesiYjEusG80nyOuiCHLw&v=3.exp")
+        script.
+            $(document).ready(function(e){
+                $('.tlf').keyup(function(e){
+                    console.log($(this).value());
+                })
+            })

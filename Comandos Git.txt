@@ -1,0 +1,103 @@
+git config --global user.name "Maximo Barroeta"
+git config --global user.email mbarroeta1990@gmail.com
+git config --global core.editor "code --wait
+git config --global -e // validar que code sea mi editor
+
+Iniciar mi proyecto
+git init
+
+Establecer nombre de version
+git commit -m 'version inicial'
+
+trackear los archivos de mi proyecto/branch
+git add .
+
+ver el estatus del track de git
+git status 
+git status -s
+
+**Agregar los archivos los coloca listo para la confirmacion 
+
+checkin al proyecto
+git commit -m con el mensaje del cambio
+
+https://git-scm.com/book/es/v1/Fundamentos-de-Git-Guardando-cambios-en-el-repositorio
+
+para ver el historial de cambios del repositorio
+git log 
+
+para ver detalle de las modificaciones que no esta preparado para subir
+git diff 
+
+para ver detalle de lo preparado para el commit
+git diff --cached
+
+Deshacer confirmacion de git add => 
+git reset HEAD <archivo>
+
+deshacer los cambios de un archivo
+git checkout -- <archivo>
+
+Crear una rama nueva
+git checkout -b <nombre de la rama> sintaxis MB_cambio
+
+Cambiar Rama
+git checkout <nombre de rama>
+
+Actualizar Master o unir las ramas (linux git Pull)
+**Se realiza desde el master o la rama a la cual la quiero agregar
+git merge <nombre de la rama con los cambios>
+
+guardar temporalmente los cambios actuales (memoria)
+git stash
+
+eliminar del track un archivo
+2)git rm <ruta del archivo>
+2.1)git rm -f (forzar eliminacion)
+
+ver lista de ramas
+git branch
+
+Eliminar Branch que ya se le hizo el merge
+git branch -d <nombre del branch>
+
+Almacenar momentaneamente cambios de una rama para poder hacer checkout a otra
+git stash
+
+Ver lista de almacenamiento momentaneos 
+git stash list
+
+Obtener cambios almacenados momentaneamente de una rama
+git stash apply
+
+obtener cambios especificos almacenados momentaneamente
+git stash apply [id del cambio: stash@{0}]
+
+
+
+Repositorios Remotos
+
+Añadiendo repositorios remotos
+git remote add [nombre] [url]
+
+ver repositorios remotos
+git remote -v
+
+Recibiendo de tus repositorios remotos
+$ git fetch [remote-name]
+
+Enviando a tus repositorios remotos
+git push origin master
+
+obtener del repositorio remoto
+git pull origin
+
+obtener rama especifica del repositorio remoto
+git pull origin rama
+
+mostrar todas las ramas del remote
+
+
+toda la saga garo
+w
+git ls-remote [remote-name]

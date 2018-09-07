@@ -1,0 +1,9 @@
+iv(ng-controller="main as main" ng-init="main.init()")
+    div(ng-include="")
+    div(ng-include="")
+    .container.content
+        .row
+            .col-10.offset-1
+            
+    div(ng-include="")
+    div(ng-include="")

@@ -1,0 +1,114 @@
+<!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-way scrolling-navbar" id="nav-chile" ng-controller="main as main">
+
+
+    <!-- Navbar brand -->
+    <a class="navbar-brand" href="index.html">
+        <img src="media/img/chile.png" class="image-navbar d-inline-block align-top" ng-show="main.app.ismobile">
+        <!--<span class="brand-text">WayChile</span>-->
+    </a>
+
+    <!-- Collapse button -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+
+    <!-- Collapsible content -->
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+        <!-- Links -->
+        <ul class="navbar-nav mr-auto">
+
+            <li class="nav-item ">
+                <a class="nav-link" aria-expanded="false"><img src="media/img/chile.png" class="image-navbar d-inline-block align-top visible-xs"  data-toggle="modal" data-target="#menuModal"></a>
+            </li>
+
+        </ul>
+
+        <ul class="navbar-nav ml-auto nav-flex-icons">
+            <li class="nav-item" style="padding-top: 16px">
+                <a class="white-text align-middle" ng-click="main.functions.clearCache()">Limpiar Cache</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link waves-effect waves-light dropdown-avatar" id="navbarDropdownMenuLink-5" data-toggle="modal" data-target="#perfilModal">
+                    <img src="media/img/avatar-2.jpg" class="img-fluid rounded-circle z-depth-0 avatar-image" alt="avatar image">
+                </a>
+            </li>
+        </ul>
+        <!-- Links -->
+
+        <!-- Search form -->
+
+    </div>
+    <!-- Collapsible content -->
+
+</nav>
+<!--/.Navbar-->
+
+<div class="modal fade right modal-scrolling" data-backdrop="false" id="perfilModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-side modal-top-right modal-notify modal-success" role="document">
+        <div class="modal-content">
+            <div class="modal-body center">
+                <center>
+                    <img src="media/img/avatar-2.jpg" class="img-fluid rounded-circle z-depth-0 img-responsive" alt="avatar image">
+                    <h4 class="purple-text">Avatar Name</h4>
+                    <p><a class="black-text">Log Out</a></p>
+                </center>
+            </div>
+        </div>
+    </div>
+</div>    
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="menuModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-fluid" role="document">
+        <div class="modal-content menu-full">
+            <div class="modal-body container-fluid">
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item title">Menu</li>
+                            <li class="list-group-item"><a href="#/home">Inicio</a></li>
+                            <li class="list-group-item title">General</li>
+                            <li class="list-group-item"><a href="#/country">Paises</a></li>
+                            <li class="list-group-item"><a href="#/usertype">Perfiles</a></li>
+                            <li class="list-group-item"><a href="#/status">Admin. Status</a></li>
+                            <li class="list-group-item"><a href="#/tags">Admin. Tags</a></li>
+                            <li class="list-group-item"><a href="#/categoryType">Tipo de categorias</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item title">Admin</li>
+                            <li class="list-group-item"><a href="#/users">Usuarios</a></li>
+                            <li class="list-group-item"><a href="#/newuser">Agregar usuario</a></li>
+                            <li class="list-group-item"><a href="#/category">Categorias</a></li>
+                            <li class="list-group-item"><a href="#/userprofiles">Perfil de usuarios</a></li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item title">General</li>
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+                    <div class="col-12 col-sm-6 col-md-3">
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item title">General</li>
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Morbi leo risus</li>
+                            <li class="list-group-item">Porta ac consectetur ac</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

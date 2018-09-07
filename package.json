@@ -1,0 +1,48 @@
+{
+  "name": "angularts",
+  "version": "1.0.0",
+  "description": "''\u001b[DPagina Web para los usuarios de hatillo'",
+  "main": "index.js",
+  "scripts": {
+    "test": "",
+    "start": "lite-server",
+    "watch": "gulp w",
+    "deploy": "gulp inject",
+    "pug": "gulp pug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Barroeta360@bitbucket.org/Barroeta360/hatillo.git"
+  },
+  "keywords": [
+    "maxci"
+  ],
+  "author": "Maximo Barroeta",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Barroeta360/waychile_web#readme",
+  "devDependencies": {
+    "@types/angular": "^1.6.49",
+    "@types/bootstrap": "^4.1.2",
+    "@types/jquery": "^3.3.5",
+    "gulp": "^3.9.1",
+    "gulp-angular-filesort": "^1.2.1",
+    "gulp-clean": "^0.4.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-minify": "^3.1.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-stream-to-promise": "^0.1.0",
+    "gulp-strip-comments": "^2.5.2",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "gulp-uglify": "^3.0.1",
+    "lite-server": "^2.4.0",
+    "pug": "^2.0.3",
+    "pug-cli": "^1.0.0-alpha6",
+    "stream-series": "^0.1.1"
+  },
+  "dependencies": {
+    "angularjs-dropdown-multiselect": "^2.0.0-beta.10"
+  }
+}

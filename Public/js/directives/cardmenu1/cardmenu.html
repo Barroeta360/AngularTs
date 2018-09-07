@@ -1,0 +1,19 @@
+<div class="row ">
+    <div class="col-xs-12 col-sm-6 col-md-4 offset-md-{{menu.offset}}" ng-repeat="menu in main.app.menuCard1List">
+        <!--Card-->
+        <div class="card card-menu-1">
+            <img src="{{menu.image}}" class="img-fluid z-depth-2 img-card-1" alt="">
+
+            <!--Card content-->
+            <div class="card-body text-center">
+                <!--Title-->
+                <h4 class="card-title">{{menu.title}}</h4>
+                <!--Text-->
+                <p>{{menu.content}}</p>
+                <a ng-href="{{menu.url}}" class="btn btn-pink waves-effect waves-light btn-pink-way">Administrar</a>
+            </div>
+
+        </div>
+        <!--/.Card-->
+    </div>
+</div>

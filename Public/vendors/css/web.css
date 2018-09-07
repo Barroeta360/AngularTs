@@ -1,0 +1,514 @@
+.c-way {
+    height: 90vh;
+}
+
+.c-way-text {
+    bottom: 45%;
+    font-size: 2.3rem !important;
+}
+
+.carousel-item img{
+    min-height: 545px !important;
+}
+
+.category-item {
+    background-color: #ff616f;
+    height: 25vw;
+    cursor: pointer;
+    color: white;
+}
+
+.category-filler {
+    opacity: 1;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background-size: cover;
+    background-position: center;
+    transition: ease-in-out .6s all;
+}
+
+.category-filler:hover {
+    opacity: 0;
+}
+
+.category-title {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    width: 100%;
+
+}
+
+.maphomeway {
+    height: 250px;
+}
+
+.menu-title {
+    font-family: 'roboto';
+    font-size: 3rem;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 32px !important;
+    font-weight: 400;
+}
+
+
+
+.card-image {
+    height: 310px;
+    width: 100%;
+}
+
+.food-icon {
+    height: 30px;
+    width: 20px;
+    background-color: white;
+}
+
+.f-t {
+    font-weight: 500;
+}
+
+.copyr-footer-text {
+    padding-bottom: 5px;
+}
+
+.p-page-img {
+    height: 100vh !important;
+}
+
+.chile-w-form {
+    font-family: 'roboto';
+    background-image: url('../media/cwp.jpg');
+    padding-top: 17px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.label-line {
+    left: 15px !important;
+}
+
+.form-w-style {
+    background-color: #00008b3d;
+    height: 76vh;
+    z-index: auto;
+    margin-top: 22px;
+    padding: 20px 30px;
+}
+
+.f-title {
+    color: white;
+    text-align: center;
+    padding-top: 35px;
+}
+
+.form-inpt {
+    color: white !important;
+}
+
+.btn-f {
+    background-color: #e03252;
+    padding-bottom: 10px;
+    width: auto !important
+}
+
+
+.tc-form {
+    margin-bottom: 10px;
+}
+
+.check-f {
+    margin-top: 22px;
+}
+
+/*.check-teal[type="checkbox"]:checked+label:before{
+    border-color: transparent #009688 #009688 transparent;
+}*/
+
+.pp-text {
+    color: white;
+    text-align: center;
+    margin-top: 143px;
+    font-size: 3.5rem !important;
+    margin-left: 44px;
+
+}
+
+.f-buttom {
+    margin-bottom: 10px;
+}
+
+.ch-w-iniciar-s {
+    background-color: #5934b3b0;
+    color: white;
+}
+
+.modal-title-ch-is {
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 1.5rem;
+
+}
+
+
+.m-btn {
+    margin-bottom: 18px;
+}
+
+.btn-close-m {
+    display: block;
+    margin-right: 37px;
+    color: white;
+    margin-top: -19px;
+}
+
+.iniciar-sesion-p {
+    margin-left: 120px;
+    margin-top: -23px;
+}
+
+.olvido-contr {
+    font-size: .9rem;
+    margin-right: 289px;
+    color: red;
+}
+
+.footer-container {
+    padding: 10px 60px;
+}
+
+.footer-way {
+    background-color: #37464f;
+    color: #fafafa;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.f-copyr-chile {
+    height: 80px !important;
+}
+
+.menu-container {
+    margin-top: 60px !important;
+}
+
+.category-pin {
+    height: 110px;
+    width: 72px;
+    background-size: cover;
+    background-position: center;
+}
+
+.fa-sponsored {
+    margin-right: 8px;
+}
+
+.card-address {
+    font-size: .9rem;
+    color: grey;
+    margin-bottom: 0px !important;
+}
+
+.card-sub-title {
+    font-size: 1.2rem !important;
+}
+
+.card-title,
+.card-sub-title {
+    margin: 0.2em 0em;
+    margin-bottom: 0.5rem !important;
+
+}
+
+.btn-floating {
+    position: relative;
+    z-index: 1;
+    vertical-align: middle;
+    display: inline-block;
+    overflow: hidden;
+    width: 47px;
+    height: 47px;
+    padding: 0;
+    border-radius: 50%;
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+    -webkit-transition: .3s;
+    transition: .3s;
+}
+
+.btn-floating i {
+    display: inline-block;
+    width: inherit;
+    color: #fff;
+    font-size: 1rem;
+    line-height: 47px;
+    text-align: center;
+}
+
+.social-card {
+    width: 35px;
+    height: 35px;
+    background-color: #9e9e9e69;
+}
+
+.social-card i {
+    line-height: 35px !important;
+}
+
+.tag-category {
+    background-color: #1749ff69;
+    color: white;
+    font-weight: 300;
+    font-size: .9rem;
+    margin-top: 5px;
+}
+
+.p-stars {
+    color: #f5e25b91;
+    font-size: 1.5rem;
+}
+
+.footer-promo {
+    margin-top: 0px !important;
+}
+
+.card-way-p {
+    height: 595px;
+    margin-top: 20px;
+}
+
+.head-page {
+    height: 350px;
+    font-size: 5rem;
+}
+
+.categories-title {
+    font-family: 'Freestyle Script';
+    font-size: 10rem;
+}
+
+.promo-pagination {
+    margin-top: 18px;
+    margin-left: 66%;
+}
+
+.publicity {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.publicity-card {
+
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.contrasea-label {
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+.corner-ribbon {
+    width: 183px !important;
+    background: #e43;
+    position: absolute !important;
+    top: 37px;
+    right: -45px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 3px;
+    color: aliceblue;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    z-index: 2;
+    margin-left: -39px;
+    font-size: 1rem;
+
+}
+
+.form-s {
+    margin-bottom: 46px;
+}
+
+.btn-newuser {
+    margin-top: 25px;
+}
+
+#cinta-sponosred {
+    border-color: orange;
+    top: 100px;
+    left: 100px;
+    z-index: 0;
+}
+
+@media only screen and (max-width: 991px) {
+    .sticky,
+    .sticky-placeholder {
+        /* display: none; */
+    }
+}
+
+/* para pantalla de pc escritorio */
+
+@media screen and (max-height: 918px) {
+    .pp-text {
+        color: white;
+        text-align: center;
+        margin-top: 320px;
+        font-size: 3.5rem !important;
+        margin-left: 30px;
+    }
+    .f-title {
+        color: white;
+        text-align: center;
+        padding-top: 45px;
+    }
+    .form-w-style {
+        background-color: #00008b3d;
+        height: auto;
+        margin-top: 130px;
+        padding: 70px 30px;
+    }
+}
+
+.carrete-carrousel {
+    margin-left: 19px;
+    padding-top: 40px;
+}
+
+.eventos-title {
+    margin-left: 165px;
+}
+
+.sub-title-modal {
+    padding-left: 25px;
+    margin-top: -18px;
+}
+
+.modal-eventos1 {
+    padding: 22px;
+    padding-left: 8px;
+}
+
+.eventos-titlee {
+    padding-left: 233px;
+}
+
+.icon-modal {
+    margin-left: 12px;
+}
+
+.subcategory-modal {
+    margin-top: 13px;
+    padding-left: 5px;
+}
+.icon-category{
+        margin-left: -7px;
+}
+.categories-modal{
+        padding-left: 30px;
+}
+.clock-icon-modal{
+        padding-left: 13px !important;
+        margin-left: 10px !important;
+}
+.body-prox-event{
+    padding-left: 50px;
+    padding-right: 30px
+}
+.accordion-event{
+    margin-bottom: 25px;
+}
+
+.body-prox-event label i{
+    margin-right: 15px;
+}
+.map-complete-btn {
+        margin-top: 60px;
+}
+
+.ver-todas-prom {
+        font-size: 1.7rem;
+}
+
+
+.menu-flotante {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	right: 0; /* Establecemos la barra en la izquierda */
+	top: 150px; /* Bajamos la barra 300px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.menu-flotante  ul {
+		list-style: none;
+	}
+
+	.menu-flotante  ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #5031a3;
+		padding: 10px 15px;
+        margin: 2px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.menu-flotante  ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.menu-flotante ul li .icon-twitter {background: #00abf0;}
+	.menu-flotante ul li .icon-googleplus {background: #d95232;}
+	.menu-flotante ul li .icon-pinterest {background: #ae181f;}
+	.menu-flotante ul li .icon-mail {background: #666666;}
+
+	.menu-flotante ul li a:hover {
+		background: #6e64e2; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		 padding: 20px 15px;/* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+	.menu-flotante ul {
+		list-style: none;
+	}
+ 
+	.menu-flotante ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #5031a3;
+		padding: 10px 15px;
+		text-decoration: none;
+        width: 48px;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+ 
+	.menu-flotante ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.menu-flotanteul li .icon-twitter {background: #00abf0;}
+	.menu-flotante ul li .icon-googleplus {background: #d95232;}
+	.menu-flotante ul li .icon-pinterest {background: #ae181f;}
+	.menu-flotante ul li .icon-mail {background: #666666;}
+ 
+	.menu-flotante ul li a:hover {
+		background: #6e64e2;/* Cambiamos el fondo cuando el usuario pase el mouse */
+        
+	}
+
+    .testimonial-card .avatar img {
+        min-width: 120px;
+        min-height: 120px;
+    }
+
+    .modal-dialog .modal-content {
+    margin-top: 70px;
+}

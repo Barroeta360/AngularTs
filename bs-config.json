@@ -1,0 +1,11 @@
+{
+  "server": { "baseDir": "./public/"},
+  "port": 80,
+  "bind": "localhost",
+  "serve": "public/",
+  "watchexps": [
+     "public/**/*"
+  ],
+  "http2": false,
+  "open": false
+ }

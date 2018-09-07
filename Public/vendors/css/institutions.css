@@ -1,0 +1,92 @@
+.header-img-inst{
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.row-modal-form{
+    padding: 0px 5px 0px 20px;
+}
+.ca-inst{
+    height: 400px !important;
+}
+.ca-inst img{
+    height: 400px !important;
+}
+.card-body.promo{
+    padding: 0px !important;
+}
+.img-promo{
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+}
+.carousel-thumbnails .carousel-indicators{
+    margin-bottom: 0px !important;
+}
+.carousel-thumbnails {
+    margin-bottom: 20px;
+}
+.menu-coll-inst {
+    height: 300px;
+}
+.commenter {
+    font-family: 'Freestyle Script', 'Roboto';
+    text-align: left !important;
+    font-size: 2em;
+}
+
+.freestyle {
+    font-family: 'Freestyle Script', 'Roboto' !important;
+}
+
+.commenter .fa{
+    color: #f7ec8d;
+    font-size: .7em;
+}
+
+.commenter-way-list img{
+    height: 60px !important;
+    float: right !important;
+}
+
+.commenter-way-list .fa-clock-o{
+    color: #ff1744 !important;
+}
+
+.tag-category {
+    margin-left: 5px;
+}
+
+.del-gal {
+    position: absolute;
+    top: 5%;
+    right: 10%;
+    text-shadow: 1px 2px 1px #171010
+}
+
+.fa-imp{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.img-event{
+    width: 100%;
+    height: 390px;
+}
+
+a.card-menu-inst{
+    color: #171010;
+    background: #d0cfd254;
+}
+*::-webkit-scrollbar {
+    width: .5em;
+}
+ 
+*::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 7px rgba(0,0,0,0.3);
+    background-color: white;
+}
+ 
+*::-webkit-scrollbar-thumb {
+  background-color: #007bff;
+  outline: 1px solid slategrey;
+}

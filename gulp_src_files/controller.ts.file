@@ -1,0 +1,7 @@
+class newController extends Controller{
+
+    constructor(angular:angularServices = angularServices){
+        super(angular);
+    }
+
+}

@@ -1,0 +1,28 @@
+<table id="table-states" datatable="ng" class="table table-striped table-responsive-md table-min" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Descripcion de perfil</th>
+            <th>Status</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Descripcion de perfil</th>
+            <th>Status</th>
+            <th>Opciones</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr ng-repeat="data in main.app.userTypeList.list">
+            <td>{{data.description}}</td>
+            <td>{{data.statusId}}</td>
+            <td class="td-button">
+                <a class="purple-text waves-effect waves-light" ng-click="main.app.userType.set(data); main.app.buttonModal = 'Editar'" data-toggle="modal" data-target="#usertype-modal">Editar</a>
+                <a class=" red-text waves-effect waves-light" ng-click="main.app.deleteUserType(data)">eliminar</a>
+                <a ng-if="data.statusId != 3" class="warning-text orange-text waves-effect waves-light" ng-click="main.app.updateStatus(data)">Desactivar</a>
+                <a class="success-text green-text waves-effect waves-light" ng-if="data.statusId != 1" ng-click="main.app.updateStatus(data)">Activar</a>
+            </td>
+        </tr>
+    </tbody>
+</table>

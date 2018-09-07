@@ -1,0 +1,5 @@
+
+node_modules/**
+srcjs/**
+public/css/none/**
+bower_components/**

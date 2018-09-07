@@ -1,0 +1,134 @@
+@media (max-width: 762px) {
+    .category-title-2 {
+        margin-top: 0px;
+        padding-top: 31px;
+        text-align: center;
+        font-size: 3.2rem;
+        font-family: Freestyle Script;
+        text-shadow: black 2px 3px 3px;
+        background-color: #ffffff4a;
+        min-height: 86px;
+        height: 100%;
+        line-height: 2.7rem;
+    }
+
+    .c-way-text {
+        bottom: 30%;
+        font-size: 2.3rem !important;
+        position: absolute;
+    }
+
+    .ver-todas-prom {
+        font-size: 1.4rem;
+    }
+}
+
+/*galaxy S5*/
+
+@media only screen and (max-height: 640px) {
+    .pp-text {
+        color: white;
+        text-align: center;
+        margin-top: 114px;
+        font-size: 2.5rem !important;
+        margin-left: 7px;
+    }
+    .form-w-style {
+        background-color: #00008b3d;
+        height: auto;
+        padding: 60px 30px;
+        z-index: auto;
+        margin-top: 27px;
+    }
+}
+
+/*iphone*/
+
+@media only screen and (max-height: 586px) {
+    /*.pp-text {
+        color: white;
+        text-align: center;
+        margin-top: 33px;
+        font-size: 2.5rem !important;
+        margin-left: 12px;
+    }*/
+    .form-w-style {
+        background-color: #00008b3d;
+        height: auto;
+        z-index: auto;
+        margin-top: 22px;
+        padding: 5px 24px;
+    }
+}
+
+/*ipad*/
+
+@media only screen and (min-height: 1024px) {
+    .pp-text {
+        color: white;
+        text-align: center;
+        margin-top: 293px;
+        font-size: 3.5rem !important;
+        margin-left: 3px;
+    }
+
+    .form-w-style {
+        background-color: #00008b3d;
+        height: auto;
+        padding: 58px;
+        z-index: auto;
+        margin-top: 121px;
+    }
+
+
+}
+
+/*ipad prooo*/
+
+@media only screen and (min-height: 1366px) {
+    .pp-text {
+        color: white;
+        text-align: center;
+        margin-top: 390px;
+        font-size: 4.5rem !important;
+        margin-left: 7px;
+    }
+
+    .form-w-style {
+        background-color: #00008b3d;
+        height: auto;
+        padding: 25px;
+        z-index: auto;
+        margin-top: 254px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .row {
+        width: 100% !important;
+    }
+    .form-w-style {
+        margin-bottom: 35px;
+    }
+    .pp-text {
+        margin-left: 0px;
+    }
+    .td-button a {
+        margin-top: 1px !important;
+    }
+    .modal-dialog {
+        margin-top: 213px !important;
+    }
+    .card-user{
+        margin-bottom: 10px;
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 979px) {
+    .form-w-style {
+        margin-bottom: 35px;
+    }
+}

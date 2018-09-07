@@ -1,0 +1,35 @@
+
+<table id="table-country" datatable="ng" class="table table-striped table-responsive-md table-min" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Pais</th>
+            <th>Codigo</th>
+            <th>Status</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Pais</th>
+            <th>Codigo</th>
+            <th>Status</th>
+            <th>Opciones</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr ng-repeat="data in main.app.countryList.list">
+            <td>{{data.name}}</td>
+            <td>{{data.code}}</td>
+            <td>{{data.statusId}}</td>
+            <td class="td-button">
+                <a class="pink-text waves-effect waves-light btn-pink-way" href="#/states?{{data.id}}" ng-click="main.app.angular.ss.countryName = data.name">Estados</a>
+                <a class="purple-text waves-effect waves-light" ng-click="main.app.buttonModal = 'Actualizar'; main.app.titleModal = 'Actualizar Pais'; main.app.country.set(data)" data-toggle="modal" data-target="#country-modal">Editar</a>
+                <a class=" red-text waves-effect waves-light" ng-click="main.app.deleteCountry(data)">eliminar</a>
+                <a ng-if="data.statusId != 3" class="warning-text orange-text waves-effect waves-light" ng-click="main.app.updateStatus(data)">Desactivar</a>
+                <a class="success-text green-text waves-effect waves-light" ng-if="data.statusId != 1" ng-click="main.app.updateStatus(data)">Activar</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+                
+

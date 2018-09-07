@@ -1,0 +1,28 @@
+<table id="table-tags" datatable="ng" class="table table-striped table-responsive-md table-min" cellspacing="0" width="100%">
+    <thead>
+        <tr>
+            <th>Tags</th>
+            <th>Status</th>
+            <th>Opciones</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Tags</th>
+            <th>Status</th>
+            <th>Opciones</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr ng-repeat="data in main.app.tagList.list">
+            <td>{{data.description}}</td>
+            <td>{{data.statusId}}</td>
+            <td class="td-button">
+                <a  data-toggle="modal" data-target="#tags-modal" class="purple-text waves-effect waves-light" ng-click="main.app.tag.set(data); main.app.buttonModal = 'Editar'">Editar</a>
+                <a ng-if="data.statusId == 1" class="warning-text orange-text waves-effect waves-light" ng-click="main.app.updateStatus(data)" >Desactivar</a>
+                <a ng-if="data.statusId == 3" class="success-text green-text waves-effect waves-light" ng-click="main.app.updateStatus(data)" >Activar</a>
+                <a class=" red-text waves-effect waves-light" ng-click="main.app.deleteTag(data)">eliminar</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
